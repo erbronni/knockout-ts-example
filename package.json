@@ -1,0 +1,21 @@
+{
+  "name": "knockout-ts-example",
+  "version": "1.0.0",
+  "description": "Knockout using TypeScript",
+  "main": "index.js",
+  "author": "Eric Bronnimann",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@types/knockout": "^3.4.46",
+    "knockout": "^3.4.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  }
+}
